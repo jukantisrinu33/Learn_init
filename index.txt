@@ -1,0 +1,17 @@
+we can add or link our file to to new repo by
+# git remote origin linkofrepo;
+
+to check the remote origin we are in we use
+# git remote -v
+
+to rename branch 
+# git branch -M branchname
+
+to see branch we are in 
+# git branch
+
+to create a new branch
+#git checkout -b Newbranchname
+
+to change branch 
+#git checkout branchname
