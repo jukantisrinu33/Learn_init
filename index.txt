@@ -1,13 +1,26 @@
-# created from local to pushing to git
-
 we can add or link our file to to new repo by
 # git remote origin linkofrepo;
 
 to check the remote origin we are in we use
 # git remote -v
 
-to change branch 
-# git branch -M main
+to rename branch 
+# git branch -M branchname
 
 to see branch we are in 
 # git branch
+
+to create a new branch
+# git checkout -b Newbranchname
+
+to change branch 
+# git checkout branchname
+
+to delete branch 
+# git branch -d branchname
+
+git push -u origin main
+once we used this -u command and we can we directly git push 
+
+to merge branches we use 
+# git merge branchname
